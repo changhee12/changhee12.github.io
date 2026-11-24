@@ -1,0 +1,32 @@
+<style>
+  .project-note { box-sizing: border-box; width: min(100%, 58rem); margin: 0 auto; padding: clamp(2rem, 7vw, 5rem) clamp(1.25rem, 5vw, 3rem); font-family: "Malgun Gothic", "Apple SD Gothic Neo", sans-serif; color: #352e22; word-break: keep-all; overflow-wrap: anywhere; }
+  .project-note h1 { font-size: clamp(1.65rem, 4vw, 2.5rem); line-height: 1.35; margin: 0 0 2rem; }
+  .project-note section { border-top: 1px solid #cdbf9e; padding: 1.15rem 0; }
+  .project-note h2 { font-size: 1.12rem; line-height: 1.5; margin: 0 0 .45rem; }
+  .project-note p { font-size: 1rem; line-height: 1.85; margin: 0; }
+  @media (min-width: 54rem) { .project-note .line { display: block; } }
+</style>
+<main class="project-note">
+  <h1>대표 프로젝트 소개</h1>
+  <section>
+    <h2>문제 정의</h2>
+    <p><span class="line">공강에 공부할 곳을 고를 때는 지금 있는 강의실에서 가까운 곳을 찾기 쉽지만,</span>
+      <span class="line">다음 강의실까지 걸어갈 시간을 빼면 정작 책을 펼칠 시간이 얼마 남지 않을 수 있어,</span>
+      <span class="line">두 구간의 이동 시간과 수업 준비 시간을 함께 고려해</span>
+      <span class="line">어디에서 몇 분 동안 공부할 수 있는지 알려 주는 ‘공강한칸’을 기획했다.</span></p>
+  </section>
+  <section>
+    <h2>역할</h2>
+    <p><span class="line">나는 개인 프로젝트의 기획과 개발을 맡아,</span>
+      <span class="line">먼저 캠퍼스 열람실과 휴게 공간을 찾아가 콘센트 유무와 주변 소음을 기록하고,</span>
+      <span class="line">강의실과 후보 장소 사이를 직접 걸으며 잰 시간을 바탕으로</span>
+      <span class="line">사용자가 원하는 조건에서 가장 오래 머물 수 있는 장소를 추천하는 기준을 정할 계획이다.</span></p>
+  </section>
+  <section>
+    <h2>기술</h2>
+    <p><span class="line">장소별 시설 정보와 건물 사이의 도보 시간은 MySQL에 저장하고,</span>
+      <span class="line">사용자가 출발지와 다음 강의실, 공강 길이를 입력하면</span>
+      <span class="line">Node.js와 Express로 각 장소에서 머물 수 있는 시간을 계산한 뒤,</span>
+      <span class="line">JavaScript로 추천 장소와 예상 체류 시간을 한 화면에 보여 줄 예정이다.</span></p>
+  </section>
+</main>
