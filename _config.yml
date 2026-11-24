@@ -1,19 +1,13 @@
-# ...
-# 5. Collections
 collections:
   posts:
-    title: blog # Needed for Siteleaf
+    title: "프로젝트 기록"
     output: true
-    description: "8bit 도트 그래픽 관련 자료를 공유합니다" # The post list page content
+    description: "캠퍼스에서 발견한 불편을 웹 프로젝트로 풀어 가는 기록."
 
-# ...
-
-# 7. Site settings
-encoding: utf-8 # Make sure the encoding is right
-title: "CustomConnect" # Site name or title
-logo: "/assets/logo.svg" # Site logo
-# favicon: "/favicon.ico" # Uncomment to add custom favicon, or leave as is to use site logo
-description: "8bit 도트 그래픽 관련 자료를 공유합니다" # Site description and default description
-url: "https://customconnect.github.io" # Site url
+encoding: utf-8
+title: "changhee12의 포트폴리오"
+logo: "/assets/logo.svg"
+description: "웹 개발과 데이터베이스 설계에 관심 있는 컴퓨터공학 학생 changhee12의 프로젝트 포트폴리오."
+url: "https://changhee12.github.io"
 baseurl: ""
 lang: ko-KR
